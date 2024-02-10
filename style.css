@@ -1,0 +1,45 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(48, 47, 46);
+}
+caption{
+    color: blue;
+}
+table{
+    border-spacing: 0px;
+    border-collapse: collapse;
+    width: 800px;
+    margin: 100px auto;
+}
+td,th{
+    border: 1px solid #ccc;
+    padding: 5px;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: #b7adad70;
+}
+td:nth-child(n + 3),
+th:nth-child(n + 3){
+    text-align: center;
+}
+tbody tr:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+}
+thead{
+    background-color: blue;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+tfoot{
+    background-color: steelblue;
+    color: white;
+}
+tfoot th:hover{
+    background-color: rgb(9, 165, 9);
+    color: white;
+}
